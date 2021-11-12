@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main()
-{
-  
+int main(){  
     char *s;
     s = malloc(1024 * sizeof(char));
     scanf("%s", s);
